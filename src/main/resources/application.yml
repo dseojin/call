@@ -64,12 +64,12 @@ hystrix:
 #     org.springframework.cloud: debug
 logging:
   level:
-    root: ${ORDER_LOG_LEVEL}
+    root: DEBUG
     org:
       hibernate:
-        SQL: ${ORDER_LOG_LEVEL}
+        SQL: DEBUG
       springframework:
-        cloud: ${ORDER_LOG_LEVEL}
+        cloud: DEBUG
 
 api:
   url: 
@@ -117,11 +117,11 @@ api:
 
 logging:
   level:
-    root: ${ORDER_LOG_LEVEL}
+    root: DEBUG
     org:
       hibernate:
-        SQL: ${ORDER_LOG_LEVEL}
+        SQL: DEBUG
       springframework:
-        cloud: ${ORDER_LOG_LEVEL}
+        cloud: DEBUG
     
 
